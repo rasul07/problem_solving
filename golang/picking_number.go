@@ -35,5 +35,6 @@ func pickingNumbers(a []int32) int32 {
 func main() {
 
 	a := []int32{1, 1, 2, 2, 4, 4, 5, 5, 5}
-	fmt.Print(a)
+	fmt.Print("whaaaat", 45+89)
+	fmt.Print("whaaaat2", a)
 }

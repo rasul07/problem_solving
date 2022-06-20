@@ -35,5 +35,9 @@ func pickingNumbers(a []int32) int32 {
 func main() {
 
 	a := []int32{1, 1, 2, 2, 4, 4, 5, 5, 5}
+<<<<<<< HEAD
 	fmt.Println(pickingNumbers(a))
+=======
+	fmt.Print(a)
+>>>>>>> parent of d72dc08... just
 }

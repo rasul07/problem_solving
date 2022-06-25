@@ -2,17 +2,34 @@ package main
 
 import "fmt"
 
-func nonDivisibleSubset(k int32, s []int32) map[int32]int32 {
+func nonDivisibleSubset(k int32, s []int32) int32 {
 	// Write your code here
-	x := make(map[int32]int32)
+	modulus := make(map[int32]int32)
+	var result int32
 
-	return x
-
+	for _, v := range s {
+		modulus[v%k]++
+	}
+	fmt.Println(modulus)
+	for i, v := range modulus{
+		
+		if (modulus[k-i] > v) {
+			if (modulus[k-i] == 0) {
+				result = 1
+			}
+			result += modulus[i-k]
+		} else {
+			result += v
+		}
+	}
+	return result
 }
 
 func main() {
-	s := []int32{1, 7, 2, 4}
-	k := int32(3)
+	var (
+		k int32 = 1
+		s       = []int32{1, 2, 3, 4, 5}
+	)
 
 	fmt.Println(nonDivisibleSubset(k, s))
 }

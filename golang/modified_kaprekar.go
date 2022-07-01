@@ -23,9 +23,9 @@ func isKaprekar(x int64) bool {
 		l, r, sum, d int64
 	)
 	d = digits(x)
-	// fmt.Println("X ===>", x,"DIGITS =====> ", d)
+	fmt.Println("X ===>", x,"DIGITS =====> ", d)
 	l = int64(x*x) / int64(math.Pow(10, float64(d)))
-	// fmt.Println("X2 =====> ", int64(x*x))
+	fmt.Println("X2 =====> ", int64(x*x))
 	// fmt.Println("Left ===> ", l)
 	r = int64(x*x) % int64(math.Pow(10, float64(d)))
 	// fmt.Println("Right ===> ", r)
@@ -46,7 +46,7 @@ func kaprekarNumbers(p int32, q int32) {
 	)
 	for i := p; i <= q; i++ {
 		if isKaprekar(int64(i)) {
-			// fmt.Println("TRUE =====>", i)
+			fmt.Println("TRUE =====>", i)
 			nums = append(nums, i)
 		} else {
 			invalid = "INVALID RANGE"

@@ -23,7 +23,7 @@ func isKaprekar(x int64) bool {
 		l, r, sum, d int64
 	)
 	d = digits(x)
-	fmt.Println("X ===>", x,"DIGITS =====> ", d)
+	fmt.Println("X ===>", x, "DIGITS =====> ", d)
 	l = int64(x*x) / int64(math.Pow(10, float64(d)))
 	fmt.Println("X2 =====> ", int64(x*x))
 	// fmt.Println("Left ===> ", l)

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func jumpingOnClouds(c []int32, k int32) int32 {
 	var (
 		e int32 = 100
@@ -17,9 +15,9 @@ func jumpingOnClouds(c []int32, k int32) int32 {
 	return e
 }
 
-func main() {
-	arr := []int32{0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0}
-	var k int32 = 3
+// func main() {
+// 	arr := []int32{0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0}
+// 	var k int32 = 3
 
-	fmt.Println(jumpingOnClouds(arr, k))
-}
+// 	fmt.Println(jumpingOnClouds(arr, k))
+// }

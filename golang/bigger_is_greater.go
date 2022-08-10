@@ -29,9 +29,9 @@ func biggerIsGreater(w string) string {
 	return result
 }
 
-func main() {
-	w := "cdcca"
-	// fmt.Println(biggerIsGreater(w))
-	// fmt.Println(noAnswer(w))
-	fmt.Println(noAnswer(w))
-}
+// func main() {
+// 	w := "cdcca"
+// 	// fmt.Println(biggerIsGreater(w))
+// 	// fmt.Println(noAnswer(w))
+// 	fmt.Println(noAnswer(w))
+// }

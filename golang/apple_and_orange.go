@@ -20,10 +20,10 @@ func countApplesAndOranges(s int32, t int32, a int32, b int32, apples []int32, o
 	fmt.Println(orange)
 }
 
-func main() {
-	var (
-		s, t, a, b      int32   = 2, 3, 1, 5
-		apples, oranges []int32 = []int32{-2}, []int32{-1}
-	)
-	countApplesAndOranges(s, t, a, b, apples, oranges)
-}
+// func main() {
+// 	var (
+// 		s, t, a, b      int32   = 2, 3, 1, 5
+// 		apples, oranges []int32 = []int32{-2}, []int32{-1}
+// 	)
+// 	countApplesAndOranges(s, t, a, b, apples, oranges)
+// }

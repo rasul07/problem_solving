@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
-
 func stringToMap(s string) string {
 	var (
-		myMap = make(map[rune]rune)
-		a rune = 65
-		str string
+		myMap      = make(map[rune]rune)
+		a     rune = 65
+		str   string
 	)
 
 	for _, v := range s {
@@ -24,5 +22,3 @@ func stringToMap(s string) string {
 func isIsomorphic(s string, t string) bool {
 	return stringToMap(s) == stringToMap(t)
 }
-
-

@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func lenInt(i int32) []int32 {
 	var res []int32
 
@@ -32,8 +28,8 @@ func findDigits(n int32) int32 {
 	return res
 }
 
-func main() {
-	t := 1012
+// func main() {
+// 	t := 1012
 
-	fmt.Println(findDigits(int32(t)))
-}
+// 	fmt.Println(findDigits(int32(t)))
+// }

@@ -11,10 +11,10 @@ func nonDivisibleSubset(k int32, s []int32) int32 {
 		modulus[v%k]++
 	}
 	fmt.Println(modulus)
-	for i, v := range modulus{
-		
-		if (modulus[k-i] > v) {
-			if (modulus[k-i] == 0) {
+	for i, v := range modulus {
+
+		if modulus[k-i] > v {
+			if modulus[k-i] == 0 {
 				result = 1
 			}
 			result += modulus[i-k]
@@ -25,11 +25,11 @@ func nonDivisibleSubset(k int32, s []int32) int32 {
 	return result
 }
 
-func main() {
-	var (
-		k int32 = 1
-		s       = []int32{1, 2, 3, 4, 5}
-	)
+// func main() {
+// 	var (
+// 		k int32 = 1
+// 		s       = []int32{1, 2, 3, 4, 5}
+// 	)
 
-	fmt.Println(nonDivisibleSubset(k, s))
-}
+// 	fmt.Println(nonDivisibleSubset(k, s))
+// }

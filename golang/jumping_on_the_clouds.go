@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // func jumpingOnClouds(c []int32) int32 {
 //     // Write your code here
 //     var (
@@ -26,25 +24,24 @@ import "fmt"
 //     return count
 // }
 
-func jumpingOnClouds(c []int32) int32 {
+func jumpingOnClouds2(c []int32) int32 {
 	// Write your code here
 	var (
 		count int32
 	)
 
-	for i := 0; i < len(c) - 1; i ++ {
-		if c[i]==0{
+	for i := 0; i < len(c)-1; i++ {
+		if c[i] == 0 {
 			i++
 		}
-			count++
-		}
+		count++
+	}
 
 	return count
 }
 
-func main() {
-	c := []int32{0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0}
+// func main() {
+// 	c := []int32{0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0}
 
-	fmt.Println(jumpingOnClouds(c))
-}
-
+// 	fmt.Println(jumpingOnClouds(c))
+// }

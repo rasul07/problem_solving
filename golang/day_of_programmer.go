@@ -5,7 +5,7 @@ func dayOfProgrammer(year int32) {
 
 }
 
-func main() {
-	// y := 1999
-	// fmt.Println(dayOfProgrammer(int32(y)))
-}
+// func main() {
+// 	// y := 1999
+// 	// fmt.Println(dayOfProgrammer(int32(y)))
+// }

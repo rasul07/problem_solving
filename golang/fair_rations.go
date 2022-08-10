@@ -14,8 +14,8 @@ func fairRations(B []int32) string {
 	return "Yes"
 }
 
-func main() {
-	b := []int32{2, 3, 4, 5, 6}
+// func main() {
+// 	b := []int32{2, 3, 4, 5, 6}
 
-	fairRations(b)
-}
+// 	fairRations(b)
+// }

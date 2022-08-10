@@ -31,8 +31,8 @@ func miniMaxSum(arr []int32) {
 	fmt.Print(max, " ", min)
 }
 
-func main() {
-	arr := []int32{156873294, 719583602, 581240736, 605827319, 895647130}
+// func main() {
+// 	arr := []int32{156873294, 719583602, 581240736, 605827319, 895647130}
 
-	miniMaxSum(arr)
-}
+// 	miniMaxSum(arr)
+// }

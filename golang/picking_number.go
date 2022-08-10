@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func countArray(a []int32) map[int32]int32 {
 	c := make(map[int32]int32)
 	for _, i := range a {
@@ -32,8 +28,8 @@ func pickingNumbers(a []int32) int32 {
 	return pn
 }
 
-func main() {
+// func main() {
 
-	a := []int32{1, 1, 2, 2, 4, 4, 5, 5, 5}
-	fmt.Println(pickingNumbers(a))
-}
+// 	a := []int32{1, 1, 2, 2, 4, 4, 5, 5, 5}
+// 	fmt.Println(pickingNumbers(a))
+// }

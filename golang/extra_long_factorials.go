@@ -21,9 +21,9 @@ func extraLongFactorials(n int32) {
 	fmt.Println(fact)
 }
 
-func main() {
-	for i := 1; i <= 25; i++ {
-		fmt.Printf("%v ", i)
-		extraLongFactorials(int32(i))
-	}
-}
+// func main() {
+// 	for i := 1; i <= 25; i++ {
+// 		fmt.Printf("%v ", i)
+// 		extraLongFactorials(int32(i))
+// 	}
+// }

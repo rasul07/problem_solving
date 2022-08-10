@@ -7,8 +7,8 @@ package main
 
 // }
 
-func main() {
-	// topics := []string{"10101", "11110", "00010"}
+// func main() {
+// 	// topics := []string{"10101", "11110", "00010"}
 
-	// fmt.Println(acmTeam(topics))
-}
+// 	// fmt.Println(acmTeam(topics))
+// }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func sumOfElements(x []int32) int32 {
 	var result int32
 	for _, v := range x {
@@ -26,12 +24,12 @@ func birthday(s []int32, d int32, m int32) int32 {
 	return possibleWays
 }
 
-func main() {
-	var (
-		s = []int32{1, 1, 1, 1, 1}
-		d = int32(4)
-		m = int32(2)
-	)
+// func main() {
+// 	var (
+// 		s = []int32{1, 1, 1, 1, 1}
+// 		d = int32(4)
+// 		m = int32(2)
+// 	)
 
-	fmt.Println(birthday(s, d, m))
-}
+// 	fmt.Println(birthday(s, d, m))
+// }

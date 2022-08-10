@@ -63,14 +63,14 @@ func kaprekarNumbers(p int32, q int32) {
 
 }
 
-func main() {
-	// kaprekarNumbers(1, 99999)
-	n := 99999 * 99999
+// func main() {
+// 	// kaprekarNumbers(1, 99999)
+// 	n := 99999 * 99999
 
-	// fmt.Println(n, digits(int32(n)))
-	left := uint64(n) / uint64(math.Pow(10, float64(5)))
-	right := uint64(n) % uint64(math.Pow(10, float64(5)))
+// 	// fmt.Println(n, digits(int32(n)))
+// 	left := uint64(n) / uint64(math.Pow(10, float64(5)))
+// 	right := uint64(n) % uint64(math.Pow(10, float64(5)))
 
-	fmt.Println(n, "Digit +=====> ", digits(int64(n)), left, right, left+right)
-	fmt.Println(isKaprekar(99999))
-}
+// 	fmt.Println(n, "Digit +=====> ", digits(int64(n)), left, right, left+right)
+// 	fmt.Println(isKaprekar(99999))
+// }

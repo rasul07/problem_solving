@@ -29,8 +29,8 @@ func plusMinus(arr []int32) {
 
 }
 
-func main() {
-	var arr = []int32{1, 1, 0, -1, -1}
+// func main() {
+// 	var arr = []int32{1, 1, 0, -1, -1}
 
-	plusMinus(arr)
-}
+// 	plusMinus(arr)
+// }

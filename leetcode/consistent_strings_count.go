@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
+
 // NOT DONE
 func countConsistentStrings(allowed string, words []string) int {
 	var (
@@ -24,11 +24,11 @@ func countConsistentStrings(allowed string, words []string) int {
 	return result
 }
 
-func main() {
-	var (
-		allowed string = "cad"
-		words          = []string{"cc","acd","b","ba","bac","bad","ac","d"}
-	)
+// func main() {
+// 	var (
+// 		allowed string = "cad"
+// 		words          = []string{"cc","acd","b","ba","bac","bad","ac","d"}
+// 	)
 
-	fmt.Println(countConsistentStrings(allowed, words))
-}
+// 	fmt.Println(countConsistentStrings(allowed, words))
+// }

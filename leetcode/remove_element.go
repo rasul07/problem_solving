@@ -1,6 +1,6 @@
 package main
 
-func removeElement(nums []int, val int) ([]int, int) {
+func removeElement(nums []int, val int) int {
 	res := 0
 
 	for i := 0; i < len(nums); i++ {
@@ -10,7 +10,7 @@ func removeElement(nums []int, val int) ([]int, int) {
 		}
 	}
 
-	return nums, res
+	return res
 }
 
 // func main() {

@@ -8,8 +8,8 @@ import (
 func wordPattern(pattern string, s string) bool {
 	var (
 		patArr, sArr []string
-		m = make(map[string]string)
-		m1 = make(map[string]string)
+		m            = make(map[string]string)
+		m1           = make(map[string]string)
 	)
 
 	patArr = strings.Split(pattern, "")
@@ -32,9 +32,9 @@ func wordPattern(pattern string, s string) bool {
 	return true
 }
 
-func main() {
-	pattern := "aaaa"
-	s := "dog dog dog dog"
+// func main() {
+// 	pattern := "aaaa"
+// 	s := "dog dog dog dog"
 
-	fmt.Println(wordPattern(pattern, s))
-}
+// 	fmt.Println(wordPattern(pattern, s))
+// }

@@ -14,6 +14,10 @@ func twoSum(nums []int, target int) (resp []int) {
 	// }
 	m := map[int]int{}
 	for i, v := range nums {
+		if _, ok := m[target-v]; ok {
+			resp = append(resp, m[target-v], i)
+			return resp
+		}
 		m[v] = i
 	}
 	return resp
@@ -21,7 +25,7 @@ func twoSum(nums []int, target int) (resp []int) {
 
 // func main() {
 // 	var (
-// 		nums   = []int{3,3}
+// 		nums   = []int{3, 3}
 // 		target = 6
 // 	)
 
